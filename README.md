@@ -26,7 +26,7 @@ The files used for this include:
   * **cga_p0hi_pp**: CGA palette 0 (Black, Green, Red, Brown)in high brightness, 320x200 resolution
   * **cga_p1_pp**: CGA palette 1 (Black, Cyan, Magenta, Gray), 320x200 resolution
   * **cga_p1hi_pp**: CGA palette 1 (Black, Cyan, Magenta, Gray) in high brightness, 320x200 resolution
-  * **teletext_pp**()
+  * **teletext_pp**: Teletext palette (Black, White, Red, Green. Blue, Yellow, Magenta, Cyan), which is also the eight colours you get by setting red/green/blue to all combinations of maximum/minimum, and 72x69 resolution
   * **zx81_pp**: ZX81 palette (White/Black monochrome), 64x44 resolution
 
 * **render_pixel_art_bp**: Blueprint for setting up the rendering system.  Turns off the tonemapper so it doesn't break anything, and then adds one of the setting files from **render_settings** to a post-process volume to turn the effect on.
