@@ -4,7 +4,9 @@ A set of useful UE4 stuff for pixel art- including using the res/palette of olde
 At the moment this includes:
 
 ## render_pixel_art
-Allows Unreal Engine to render using the same resolution and colour schemes of old machines.  This includes the following content:
+This part of the Pixel Art setup allows you to take your scenes and render them in the style of an older machine, limiting itself to a specified resolution and palette.  For a simple example here's a basic level with a picture of a parrot rendered in the palette and resolution of a Commodore 64.
+
+![UE4 C64 Parrot](/readme_assets/c64_parrot.png?raw=true "UE4 C64 Parrot")
 
 * **demo_content**: Just a simple test level, nothing too interesting.  Has a nice public domain picture of a parrot from [Wikipedia](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#/media/File:RGB_24bits_palette_sample_image.jpg), though, it's cute.  I call him Bob.
 
