@@ -8,6 +8,12 @@ This part of the Pixel Art setup allows you to take your scenes and render them 
 
 ![UE4 C64 Parrot](/readme_assets/c64_parrot.png?raw=true "UE4 C64 Parrot")
 
+To try things out open **demo_content/Parrot_Map**, choose the **render_pixel_art_bp** and for *Render Setting* choose one of the presets from the **render_settings** directory.
+
+At present I've made no attempt to simulate [attribute clash](https://en.wikipedia.org/wiki/Attribute_clash), which limited the colours displayed in a character block on older hardware.  While I have some thoughts on how this could be done for now I'm just building something simple which looks good rather than delve into the complexities.
+
+The files used for this include:
+
 * **demo_content**: Just a simple test level, nothing too interesting.  Has a nice public domain picture of a parrot from [Wikipedia](https://en.wikipedia.org/wiki/List_of_8-bit_computer_hardware_palettes#/media/File:RGB_24bits_palette_sample_image.jpg), though, it's cute.  I call him Bob.
 
 * **palette_images**: All of the palettes used for the system.  Where a system has multiple palettes, such as CGA, each row of the image is a separate palette which can be selected.
@@ -20,7 +26,8 @@ This part of the Pixel Art setup allows you to take your scenes and render them 
   * **cga_p0hi_pp**: CGA palette 0 (Black, Green, Red, Brown)in high brightness, 320x200 resolution
   * **cga_p1_pp**: CGA palette 1 (Black, Cyan, Magenta, Gray), 320x200 resolution
   * **cga_p1hi_pp**: CGA palette 1 (Black, Cyan, Magenta, Gray) in high brightness, 320x200 resolution
-  * **zx81**: ZX81 palette (White/Black monochrome), 64x44 resolution
+  * **teletext_pp**()
+  * **zx81_pp**: ZX81 palette (White/Black monochrome), 64x44 resolution
 
 * **render_pixel_art_bp**: Blueprint for setting up the rendering system.  Turns off the tonemapper so it doesn't break anything, and then adds one of the setting files from **render_settings** to a post-process volume to turn the effect on.
 
