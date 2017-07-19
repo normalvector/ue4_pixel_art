@@ -1,5 +1,8 @@
 # ue4_pixel_art
-A set of useful UE4 stuff for pixel art- including using the res/palette of older machines, using grayscale images + palette, and producing the grayscale images automatically from colour sources.
+
+![C64 in C64](/readme_assets/c64 in c64.png?raw=true "UE4 C64 iin C64")
+
+A set of useful UE4 stuff for pixel art.  When this is complete it will include using the res/palette of older machines, using grayscale images + palette, and producing the grayscale images automatically from colour sources.
 
 At the moment this includes:
 
@@ -31,6 +34,10 @@ The files used for this include:
 
 * **render_pixel_art_bp**: Blueprint for setting up the rendering system.  Turns off the tonemapper so it doesn't break anything, and then adds one of the setting files from **render_settings** to a post-process volume to turn the effect on.
 
+
+## Thanks Go To...
+
+* Warren Marshall for [the c64 model used in the title pic](https://www.unrealengine.com/marketplace/retro-gaming-mini-pack)
 
 ----
 
