@@ -2,6 +2,8 @@
 
 ![C64 in C64](/readme_assets/c64.png?raw=true "UE4 C64 iin C64")
 
+**Important: This repo is highly unfinished.  The render_pixel_art PP material works nicely but for now anything else is suspect**
+
 A set of useful UE4 stuff for pixel art.  When this is complete it will include using the res/palette of older machines, using grayscale images + palette, and producing the grayscale images automatically from colour sources.
 
 At the moment this includes:
