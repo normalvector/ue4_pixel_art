@@ -1,6 +1,6 @@
 # ue4_pixel_art
 
-![C64 in C64](/readme_assets/c64 in c64.png?raw=true "UE4 C64 iin C64")
+![C64 in C64](/readme_assets/c64.png?raw=true "UE4 C64 iin C64")
 
 A set of useful UE4 stuff for pixel art.  When this is complete it will include using the res/palette of older machines, using grayscale images + palette, and producing the grayscale images automatically from colour sources.
 
